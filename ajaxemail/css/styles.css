@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: #04AA6D;
+}
+body{
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.title{
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+.email-form{
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin: 0 20px;
+    width: 100%;
+    max-width: 500px;
+    align-content: center;
+}
+.email-form > *{
+    display: block;
+    margin: 10px 0px;
+}
+.email-form__text{
+    width: 100%;
+    padding: 10px;
+    border-color: #ffff;
+}
+.email-form__text:focus-within{
+  background: #04AA6D;
+  color: white;
+  font-size: 20px;
+}
+.email-form__textarea{
+    width: 100%;
+    padding: 10px;
+    height: 120px;
+    resize: none;
+    border-color: #ffff;
+}
+.email-form__textarea:focus-within{
+    background: #04AA6D;
+    color: white;
+    font-size: 20px;
+}
+.email-form__top-msg{
+    text-align: center;
+}
+.email-form__top-msg--err{
+    color: red;
+}
+.email-form__top-msg--success{
+    color: green;
+}
+.email-form__err-msg{
+    color: red;
+}
+.email-form__submit{
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-transform: uppercase;
+    color: white;
+    background: #04AA6D;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.email-form__submit:hover{
+  color: #04AA6D;
+  background: white;
+
+}
+/* Set Consistent form styling across browsers */
+button, input, select, textarea{
+    font-family: inherit;
+    font-size: 100%;
+}
+.error-message{
+    color: red;
+    font-family: inherit;
+    font-size: 20px;
+}
+label
+{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}

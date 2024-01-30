@@ -1,0 +1,15 @@
+[02-Jan-2023 13:12:34 UTC] PHP Warning:  require_once(/home2/isparlwm/public_html/websites/demolink.info/email-smtp/vendor/phpmailer/phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home2/isparlwm/public_html/websites/demolink.info/email-smtp/mail.php on line 6
+[02-Jan-2023 13:12:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/isparlwm/public_html/websites/demolink.info/email-smtp/vendor/phpmailer/phpmailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/isparlwm/public_html/websites/demolink.info/email-smtp/mail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home2/isparlwm/public_html/websites/demolink.info/email-smtp/mail.php on line 6
+[02-Jan-2023 13:13:09 UTC] PHP Warning:  require_once(/home2/isparlwm/public_html/websites/demolink.info/email-smtp/vendor/phpmailer/phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home2/isparlwm/public_html/websites/demolink.info/email-smtp/mail.php on line 6
+[02-Jan-2023 13:13:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/isparlwm/public_html/websites/demolink.info/email-smtp/vendor/phpmailer/phpmailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/isparlwm/public_html/websites/demolink.info/email-smtp/mail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home2/isparlwm/public_html/websites/demolink.info/email-smtp/mail.php on line 6
+[02-Jan-2023 13:13:11 UTC] PHP Warning:  require_once(/home2/isparlwm/public_html/websites/demolink.info/email-smtp/vendor/phpmailer/phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home2/isparlwm/public_html/websites/demolink.info/email-smtp/mail.php on line 6
+[02-Jan-2023 13:13:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/isparlwm/public_html/websites/demolink.info/email-smtp/vendor/phpmailer/phpmailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/isparlwm/public_html/websites/demolink.info/email-smtp/mail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home2/isparlwm/public_html/websites/demolink.info/email-smtp/mail.php on line 6
